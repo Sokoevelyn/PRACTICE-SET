@@ -1,0 +1,121 @@
+section {
+    border: 1px solid grey;
+    width: fit-content;
+    height: 80vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section > div {
+    border: 2px light grey;
+    height: 80vh;
+}
+#desktop {
+width: 500px;
+}
+.desktop {
+    width: 8ch;
+    height: 80vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 2px light rgb(182, 170, 170);
+    background-color: rgb(226, 212, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(190, 186, 186);
+    background-color: rgb(190, 186, 186);
+    margin-top: 2ch;
+    text-align: center;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(190, 186, 186);
+    background-color: rgb(190, 186, 186);
+    margin-bottom: 2ch;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}    
+#side {
+    width: 200px;
+    background-color: rgb(190, 186, 186);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.side {
+    width: 15ch;
+    height: 4ch;
+    border: 2px light rgb(184, 178, 178);
+    background-color: rgb(212, 209, 209);
+    margin-top: 2ch;
+}
+#space {
+    width: 50px;
+    background-color: rgb(212, 209, 209);
+}
+#mobile {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: 2px solid rgb(231, 228, 228)
+}
+.mobile {
+    border-bottom: 2px light rgb(212, 209, 209);
+    width: 300px;
+    height: 7ch;
+    background-color: rgb(226, 212, 212);
+    position: static;
+}
+.logo-two {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(190, 186, 186);
+    background-color: rgb(190, 186, 186);
+    margin-left: 2ch;
+    margin-top: 1ch;
+    text-align: center;
+} 
+.side-two {
+    width: 20ch;
+    height: 3ch;
+    border: 2px light rgb(184, 178, 178);
+    background-color: rgba(230, 228, 228, 0.76);
+    margin-top: 5ch;
+    margin-left: 2ch;
+}
+.avatar-one {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(190, 186, 186);
+    background-color: rgb(190, 186, 186); 
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0ch;
+    margin-bottom: 2ch;
+    margin-right: 2ch;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+@desktop (max-width: 375px) {
+    #mobile {
+        background: linear-gradient(rgb(212, 124, 139), rgb(192, 180, 180));
+        display: block;
+    }
+}

@@ -1,0 +1,97 @@
+section {
+    border: 2px light grey;
+    width: fit-content;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section > div {
+    height: 80vh;
+    border-radius: 10px;
+    border: 1px solid grey;
+    position: relative;
+}
+#content {
+    width: 800px;
+    position: ;
+}
+.type {
+    border: 2px light rgb(184, 178, 178);
+    width: 20ch;
+    height: 3ch;
+    background-color:  rgb(199, 190, 190);
+    position: relative;
+    left: 20ch;
+    top: 10ch;
+}
+#side {
+    width: 250px;
+    background-color: rgb(158, 154, 154);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.holder {
+    border: 2px solid grey;
+    width: 10ch;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 3ch;
+}  
+.logo {
+    border: 2px solid rgb(189, 182, 182);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(189, 182, 182);
+    margin-top: 2ch;
+}
+.avatar {
+    border: 2px solid rgb(189, 182, 182);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(189, 182, 182);
+    margin-bottom: 2ch;
+    border-radius: 100px;
+}
+.side {
+border: 2px light rgb(192, 190, 190);
+width: 150px;
+height: 4ch;
+background-color: rgb(192, 190, 190);
+margin-top: 3ch;
+}  
+@media (max-width: 480px) {
+    #content {
+        background: linear-gradient(rgb(221, 98, 119), rgb(207, 22, 53));
+        display: flex;
+        flex-direction: column;
+    }
+    .holder {
+     height: 10ch;
+     width: 100%;  
+    }
+    .logo {
+        border: 2px solid rgb(189, 182, 182);
+        width: 50px;
+        height: 50px;
+        background-color: rgb(189, 182, 182);
+        margin-top: 2ch;  
+        position: absolute;
+        left: 0;
+    }
+    .avatar {
+        position: relative;
+        right: 0;
+        margin-top: 2ch;
+    }
+    .type {
+        position: relative;
+        bottom: 6ch;
+    }
+}    
